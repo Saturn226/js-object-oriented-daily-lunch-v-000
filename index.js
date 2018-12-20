@@ -2,14 +2,16 @@
 let store = { neighborhoods: [], meals: [], customers: [], deliveries: [] };
 
 class Neighborhood{
-  constructor(){
-    
+  var name;
+  constructor(name){
+    name = name
   }
 }
 
 class Meal{
-  constructor(){
-    
+  var name;
+  constructor(name){
+    name = name
   }
   
 }

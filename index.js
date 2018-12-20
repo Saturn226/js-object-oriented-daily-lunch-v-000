@@ -40,6 +40,12 @@ class Customer{
     this.neighborhoodId = neighborhood
     store.customers.push(this)
   }
+  
+  deliveries(){
+    
+  }
+  
+  
 
 }
 

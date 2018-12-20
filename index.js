@@ -24,7 +24,7 @@ class Neighborhood{
  }
  meals(){
    return this.deliveries().map((delivery) => {
-     return delivery.mealId
+     return delivery.meal()
    })
  }
 }

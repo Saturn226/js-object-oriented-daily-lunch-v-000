@@ -48,8 +48,8 @@ class Customer{
   }
   
   meals(){
-    return store.deliveries().filter(meal => {
-      return meal.customerId == this.id
+    return this.deliveries().map(delivery => {
+      return delivery.meal
     })
   }
 

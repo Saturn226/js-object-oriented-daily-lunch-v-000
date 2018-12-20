@@ -23,8 +23,8 @@ class Neighborhood{
    })
  }
  meals(){
-   return this.deliveries().filter((delivery) => {
-     delivery.neighborhoodId == this.id
+   return this.deliveries().map((delivery) => {
+     return delivery.mealId
    })
  }
 }

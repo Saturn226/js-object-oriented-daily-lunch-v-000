@@ -45,9 +45,7 @@ class Meal{
   }
   
   byPrice(){
-    store.meals.sort(meal => {
-      
-    })
+    store.meals.sort()
   }
 }
 

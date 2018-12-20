@@ -12,8 +12,10 @@ class Neighborhood{
 }
 
 class Meal{
-  constructor(title){
+  constructor(title, price){
     this.title = title
+    this.price = price
+    store.meals.push(this)
   }
 }
 

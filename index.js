@@ -12,7 +12,9 @@ class Neighborhood{
 }
 
 class Meal{
-  
+  constructor(title){
+    this.title = title
+  }
 }
 
 class Customer{

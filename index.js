@@ -51,4 +51,17 @@ class Delivery{
     this.neighborhoodId = neighborhoodId
     store.deliveries.push(this)
   }
+  
+  meal(){
+    store.meals.find(meal => {
+      
+    })
+  }
+  
+  customer(){
+    
+  }
+  neighborhood(){
+    
+  }
 }

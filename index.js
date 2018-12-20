@@ -67,6 +67,12 @@ class Customer{
       return delivery.meal()
     })
   }
+  
+  totalSpent(){
+    return this.meals().reduce(a,b => {
+     return a.price + b.price
+    })
+  }
 
 }
 

@@ -53,7 +53,7 @@ class Delivery{
   }
   
   meal(){
-    return store.meals.find(meal)
+    return store.meals.find(this.mealId)
   }
   
   customer(){

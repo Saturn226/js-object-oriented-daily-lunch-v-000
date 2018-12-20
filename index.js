@@ -2,23 +2,19 @@
 let store = { neighborhoods: [], meals: [], customers: [], deliveries: [] };
 
 class Neighborhood{
-  
+ constructor(name){
+   this.name = name
+ } 
 }
 
 class Meal{
-  constructor(name){
-    var name = name
-  }
+  
 }
 
 class Customer{
-constructor(){
-  
-}
+
 }
 
 class Delivery{
-  constructor(){
-    
-  }
+  
 }

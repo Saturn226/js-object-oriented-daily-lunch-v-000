@@ -30,6 +30,7 @@ class Meal{
     this.price = price
     this.id = mealId++
     store.meals.push(this)
+    this.byPrice == this.byPrice.bind(this)
   }
   
   deliveries(){

@@ -53,9 +53,7 @@ class Delivery{
   }
   
   meal(){
-    store.meals.find(meal => {
-      
-    })
+    return store.meals.find(meal)
   }
   
   customer(){
